@@ -9,7 +9,7 @@ body{
 /* shared style */
 .button-primary{
   background-color: #fb6d06;
-  padding:15px 20px;
+  padding:12px 20px;
   border-radius: 5px;
   color: white;
   border: none;
@@ -18,12 +18,18 @@ body{
 /* heading style */
 header{
   background-color: #fff6ef;
+  background-image: url('../imagesPractice/developer.png');
+  background-repeat: no-repeat;
+  background-size: 65px;
+  background-position-x: 20px;
+  background-position-y: 15px;
+  
 }
 /* nav style */
 nav{
   display: flex;
   justify-content: space-between;
-  padding: 20px 150px;
+  padding: 20px 120px;
   
   align-items: center;
 }
@@ -41,4 +47,44 @@ ul>li {
 .nav-name{
   font-size: 40px;
 }
+/* heading content style */
+.heading-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 120px;
+  background-image:
+  url('../imagesPractice/header_bg.png');
+ background-repeat: no-repeat;
+ background-position: bottom right;
+ background-size: 500px;
+ 
 
+}
+.heading-image>img{
+  height: 420px;
+  width: 370px;
+  margin-right: 20px;
+}
+.heading-text h2, h4, p{
+  margin-bottom: 20px;
+}
+.text-greting{
+  color: #595458;
+  font-size: 20px;
+}
+.text-name{
+  font-size: 50px;
+}
+.text-description{
+  color: #595458;
+  font-size: 14px;
+}
+.button-contact{
+  margin-left: 15px;
+  padding:12px 30px;
+  border-radius: 5px;
+  color:#fb6d06 ;
+  border: 1px solid #fb6d06;
+  background-color: #fff6ef;
+}
