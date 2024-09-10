@@ -15,7 +15,7 @@ body{
   border: none;
 }
 .section-title{
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 700;
   text-align: center;
   margin-bottom: 40px;
@@ -103,6 +103,7 @@ ul>li {
 main section{
   max-width: 1100px;
   margin: 100px 120px;
+  border-radius: 10px;
   
 }
 /* about me section style */
@@ -116,4 +117,19 @@ main section{
 }
 .section-content{
   text-align: center;
+}
+
+/* what i do section style */
+.wid-section-content{
+  display: flex;
+  gap: 25px;
+}
+.wid-section-column{
+  padding: 30px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0 6px 50px 0 rgba(0,0,0,0.06); 
+}
+.column-icon{
+  margin-bottom: 10px;
 }
