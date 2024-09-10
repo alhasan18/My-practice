@@ -160,3 +160,36 @@ hr{
 #resume-button{
   text-align: center;
 }
+/* footer styling */
+footer{
+  padding: 80px;
+  background-color: #fff6ef;
+}
+.footer-content{
+  display: flex;
+  gap: 100px;
+}
+.footer-column{
+  width: 50%;
+}
+.footer-title{
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  }
+  footer a{
+    margin-right: 10px;
+  }
+  form input[type = 'text'],input[type = 'email'],textarea{
+    display: block;
+    margin-bottom: 30px;
+    border: none;
+    color: #757575;
+  padding: 10px 20px;
+  background-color: white;
+  border-radius: 5px;
+  width: 100%;
+  }
+  .footer-description{
+    color: #474747;
+  }
